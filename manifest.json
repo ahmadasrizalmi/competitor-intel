@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Competitor Price Intel",
+  "name": "Competitor Price Intel Chrome Extension",
   "version": "1.0",
   "description": "Scan and compare competitor pricing for interior photography services.",
   "permissions": [
@@ -14,11 +14,18 @@
   "side_panel": {
     "default_path": "sidepanel.html"
   },
-  "content_scripts": [{
-    "matches": ["https://*/*", "http://*/*"],
-    "js": ["content.js"],
-    "run_at": "document_idle"
-  }],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*/*",
+        "http://*/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
   "action": {
     "default_title": "Competitor Intel",
     "default_icon": {
