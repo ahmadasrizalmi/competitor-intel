@@ -111,7 +111,6 @@ chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
   }
 });
 
-// ─── Open Side Panel ──────────────────────────────────────────────
 
 
 console.log('[Competitor Intel] Background loaded');
