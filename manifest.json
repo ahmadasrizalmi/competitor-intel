@@ -6,8 +6,7 @@
   "permissions": [
     "activeTab",
     "storage",
-    "scripting",
-    "side_panel"
+    "scripting"
   ],
   "background": {
     "service_worker": "background.js"
