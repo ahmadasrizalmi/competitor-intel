@@ -113,6 +113,5 @@ chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
 
 // ─── Open Side Panel ──────────────────────────────────────────────
 
-chrome.sidePanel.setPanelBehavior({ openPanelOnActionClick: true }).catch(() => {});
 
 console.log('[Competitor Intel] Background loaded');
