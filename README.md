@@ -1,6 +1,6 @@
 # Competitor Price Intel Chrome Extension
 
-Scan and compare competitor pricing for interior photography services.
+Competitor price intel Chrome Extension — scan and compare competitor pricing for interior photography services.
 
 ## Features
 
